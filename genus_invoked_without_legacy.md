@@ -1,5 +1,5 @@
 set_db hdl_search_path {put here files path where .v files are} <br/>
-set_db lib_search_path {put here files path where 'lib files are} <br/>
+set_db lib_search_path {put here files path where .lib files are} <br/>
 set myFiles [glob -directory /home/zakirhussain/Desktop/verilog/fa/src *.v] <br/>
 read_hdl -sv ${myFiles} <br/>
 #Specify libraries using read_libs or read_mmmc <br/>
